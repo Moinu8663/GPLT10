@@ -4,7 +4,16 @@
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,
@@ -15,7 +24,7 @@
   "collapseInvisibleWidgets": true,
   "color": "#C2DAF0",
   "evaluationVersion": 2,
-  "icon": "mug",
+  "icon": "cricket",
   "pages": [
     {
       "id": "PlayerList",
@@ -26,7 +35,16 @@
     "appPositioning": {
       "type": "FIXED"
     },
-    "navigationSetting": {},
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    },
     "themeSetting": {
       "appMaxWidth": "LARGE",
       "density": 1.0,

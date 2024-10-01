@@ -41,14 +41,14 @@
     "team",
     "photo"
   ],
-  "columnUpdatedAt": 1727698119224,
+  "columnUpdatedAt": 1727789798778,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
     0
   ],
-  "delimiter": ",",
+  "delimiter": "",
   "dynamicBindingPathList": [
     {
       "key": "tableData"
@@ -114,6 +114,7 @@
   "needsErrorInfo": false,
   "parentId": "0",
   "parentRowSpace": 10,
+  "primaryColumnId": "id",
   "primaryColumns": {
     "base_price": {
       "alias": "base_price",
@@ -256,7 +257,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
-      "columnType": "text",
+      "columnType": "image",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"photo\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
@@ -426,6 +427,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "showInlineEditingOptionDropdown": true,
   "tableData": "{{Query3.data}}",
   "textSize": "0.875rem",
   "topRow": 1,
