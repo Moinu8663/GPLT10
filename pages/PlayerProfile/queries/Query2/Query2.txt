@@ -1,0 +1,1 @@
+UPDATE gpl_player SET photo ='{{FilePicker1.files[0].data}}' WHERE id = {{Input1.text}}

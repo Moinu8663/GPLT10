@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_3fe41c30-0b68-45f1-818a-26516fec861b",
-  "id": "PlayerList_Query3",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_7c82e99c-7773-4515-ae89-0e6652e3f714",
+  "id": "PlayerProfile_Query1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM gpl_player;",
+      "body": "SELECT * FROM gpl_player WHERE id = {{Input1.text}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -22,10 +22,14 @@
       "name": "GPLT10",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": true,
-    "name": "Query3",
-    "pageId": "PlayerList",
-    "userSetOnLoad": true
+    "name": "Query1",
+    "pageId": "PlayerProfile",
+    "userSetOnLoad": false
   }
 }

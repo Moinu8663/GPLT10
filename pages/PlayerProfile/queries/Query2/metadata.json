@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_3fe41c30-0b68-45f1-818a-26516fec861b",
-  "id": "PlayerList_Query3",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_d8ede85d-cb09-49cc-aac7-b6f343ecaeeb",
+  "id": "PlayerProfile_Query2",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM gpl_player;",
+      "body": "UPDATE gpl_player SET photo ='{{FilePicker1.files[0].data}}' WHERE id = {{Input1.text}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -22,10 +22,14 @@
       "name": "GPLT10",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
-    "executeOnLoad": true,
-    "name": "Query3",
-    "pageId": "PlayerList",
-    "userSetOnLoad": true
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
+    "executeOnLoad": false,
+    "name": "Query2",
+    "pageId": "PlayerProfile",
+    "userSetOnLoad": false
   }
 }
