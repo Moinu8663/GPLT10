@@ -1,0 +1,7 @@
+INSERT INTO gpl_player(Player_Name,Role,Batting_Style,Bowling_Style,Village,Base_Price)VALUES
+('Aaryn banjara','All rounder','Right','','Naya gaon','100000'),
+('Anil Kumar','Allrounder','Right','','Busi','100000'),
+('Shivlal chouhan','Batting allrounder','Right','','Koselao','100000'),
+('VIKAS CHOUHAN','Allraunder','Right','','Karadi','100000'),
+('Jetaram','Allrahunder','Right','','Koselao','100000'),
+('Ranjeet Chouhan (Pintu)','Batting','Right','','Karadi','100000');
