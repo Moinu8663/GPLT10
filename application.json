@@ -40,6 +40,10 @@
     {
       "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "ActionDashBoard",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

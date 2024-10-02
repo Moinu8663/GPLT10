@@ -1,1 +1,1 @@
-Drop TABLE gpl_player
+ALTER TABLE gpl_player ADD COLUMN Sold_price VARCHAR(100);

@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_f5c7ad57-d8e2-408c-bae2-5ee5ea69bdb7",
-  "id": "PlayerList_Query4",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_dcff2d98-f0ae-4696-8755-120b5b30e7ba",
+  "id": "ActionDashBoard_Query3",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "ALTER TABLE gpl_player ADD COLUMN Sold_price VARCHAR(100);",
+      "body": "UPDATE gpl_Teams SET Team_logo = '{{FilePicker1.files[0].data}}'where id ={{Input2.text}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,10 +22,14 @@
       "name": "GPLT10",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
-    "executeOnLoad": false,
-    "name": "Query4",
-    "pageId": "PlayerList",
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
+    "executeOnLoad": true,
+    "name": "Query3",
+    "pageId": "ActionDashBoard",
     "userSetOnLoad": false
   }
 }

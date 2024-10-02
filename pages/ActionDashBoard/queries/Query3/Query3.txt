@@ -1,0 +1,1 @@
+UPDATE gpl_Teams SET Team_logo = '{{FilePicker1.files[0].data}}'where id ={{Input2.text}};

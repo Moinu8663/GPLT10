@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_f5c7ad57-d8e2-408c-bae2-5ee5ea69bdb7",
-  "id": "PlayerList_Query4",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_07d99514-965c-4799-b207-2ae303031aaf",
+  "id": "ActionDashBoard_Query4",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "ALTER TABLE gpl_player ADD COLUMN Sold_price VARCHAR(100);",
+      "body": "SELECT * FROM gpl_Teams;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000
@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "Query4",
-    "pageId": "PlayerList",
-    "userSetOnLoad": false
+    "pageId": "ActionDashBoard",
+    "userSetOnLoad": true
   }
 }

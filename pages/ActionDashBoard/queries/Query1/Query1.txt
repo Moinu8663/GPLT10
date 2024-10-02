@@ -1,0 +1,5 @@
+CREATE TABLE Gpl_Teams(
+	Id Serial PRIMARY KEY,
+	Team_Name VARCHAR(100),
+	Team_logo TEXT
+)

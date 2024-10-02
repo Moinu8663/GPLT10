@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "defaultImage": "https://in.images.search.yahoo.com/images/view;_ylt=AwrKANG.5_xmFMQStka9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzZhMWUxMzY0YWIzOWM0ODAwNDBmYjE3YjI4OWVlNGNkBGdwb3MDNQRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dcricket%2Bbackground%26ei%3DUTF-8%26type%3DE210IN1359G0%26fr%3Dmcafee%26fr2%3Dsa-gp-search%26tab%3Dorganic%26ri%3D5&w=1600&h=1000&imgurl=wallpaperaccess.com%2Ffull%2F1088620.jpg&rurl=https%3A%2F%2Fwallpaperaccess.com%2Fcricket&size=233KB&p=cricket+background&oid=6a1e1364ab39c480040fb17b289ee4cd&fr2=sa-gp-search&fr=mcafee&tt=Cricket+Wallpapers+-+Top+Free+Cricket+Backgrounds+-+WallpaperAccess&b=0&ni=140&no=5&ts=&tab=organic&sigr=r4daa9fOcLmJ&sigb=ZT9ZbgVgaDs3&sigi=kR9LhhzEcXmp&sigt=6jLeMRDRuSHP&.crumb=N.xBVAy4idQ&fr=mcafee&fr2=sa-gp-search&type=E210IN1359G0",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "1c2namh6k5",
+  "leftColumn": 0,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 24,
+  "topRow": 1,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "389ue24vpj",
+  "widgetName": "Image1"
+}
