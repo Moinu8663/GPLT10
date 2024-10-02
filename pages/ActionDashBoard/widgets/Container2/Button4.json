@@ -1,32 +1,35 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 50,
+  "bottomRow": 54,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
-      "key": "buttonColor"
-    },
-    {
       "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
     }
   ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "8ugn2ivdlj",
-  "leftColumn": 23,
+  "key": "ld45c890o4",
+  "leftColumn": 8,
   "minWidth": 120,
-  "mobileBottomRow": 11,
-  "mobileLeftColumn": 8,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 7,
+  "mobileBottomRow": 56,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 52,
   "needsErrorInfo": false,
-  "parentColumnSpace": 6.1337890625,
+  "onClick": "{{resetWidget(\"Container1\", true);\nresetWidget(\"Container3\", true);\nSoldQuery.run();\nresetWidget(\"Input1\", true);\nresetWidget(\"Text2Copy\", true);\nresetWidget(\"Text2CopyCopy\", true);}}",
+  "parentColumnSpace": 5.0126953125,
   "parentId": "ziiqs8c0wx",
   "parentRowSpace": 10,
   "placement": "CENTER",
@@ -34,11 +37,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 39,
-  "text": "Submit",
-  "topRow": 46,
+  "rightColumn": 55,
+  "text": "Sold",
+  "topRow": 50,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "2mqzay9mrs",
-  "widgetName": "Button1Copy7"
+  "widgetId": "0y5qk7hnig",
+  "widgetName": "Button4"
 }

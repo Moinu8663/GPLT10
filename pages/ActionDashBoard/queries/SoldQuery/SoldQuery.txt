@@ -1,0 +1,1 @@
+UPDATE gpl_player SET team ='{{JSObject1.currentTeam}}',sold_price ='{{JSObject1.currentPrice}}' where id = {{Input1.text}};

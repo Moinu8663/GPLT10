@@ -1,19 +1,21 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 23,
+  "bottomRow": 4,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#dbeafe",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
-      "key": "buttonColor"
+      "key": "borderRadius"
     },
     {
-      "key": "borderRadius"
+      "key": "text"
     }
   ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -23,28 +25,28 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "8ugn2ivdlj",
-  "leftColumn": 23,
+  "key": "raodakdu41",
+  "leftColumn": 0,
   "minWidth": 120,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 30,
-  "mobileRightColumn": 46,
-  "mobileTopRow": 9,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{Query2.run().then(() => {\n  Update_teams_logo.run();\n});}}",
-  "parentColumnSpace": 6.4140625,
-  "parentId": "bhg69amw8i",
+  "onClick": "{{JSObject1.placeBid(currentItem.team_name);}}",
+  "parentColumnSpace": 4.3520050048828125,
+  "parentId": "jbt6gotjta",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 39,
-  "text": "Submit",
-  "topRow": 19,
+  "rightColumn": 63,
+  "text": "{{currentItem.team_name}}",
+  "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "fffqk0wnp1",
-  "widgetName": "Button2"
+  "widgetId": "urot94oyam",
+  "widgetName": "Button3"
 }

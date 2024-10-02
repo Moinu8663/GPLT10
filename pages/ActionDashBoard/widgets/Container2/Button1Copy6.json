@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 4,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -14,18 +14,24 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "8ugn2ivdlj",
-  "leftColumn": 45,
+  "leftColumn": 42,
   "minWidth": 120,
   "mobileBottomRow": 11,
   "mobileLeftColumn": 8,
   "mobileRightColumn": 24,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
+  "onClick": "{{playerQuery.run();\nTeamsTable.run()}}",
   "parentColumnSpace": 6.1337890625,
   "parentId": "ziiqs8c0wx",
   "parentRowSpace": 10,
@@ -34,9 +40,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 61,
+  "rightColumn": 58,
   "text": "Submit",
-  "topRow": 4,
+  "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "uwoo7bktsx",

@@ -1,6 +1,6 @@
 {
   "gitSyncId": "66fa61ca862f8d04560f55c4_07d99514-965c-4799-b207-2ae303031aaf",
-  "id": "ActionDashBoard_Query4",
+  "id": "ActionDashBoard_TeamsTable",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -10,10 +10,10 @@
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
-      "timeoutInMillisecond": 10000
+      "timeoutInMillisecond": 10000000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -24,7 +24,7 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "Query4",
+    "name": "TeamsTable",
     "pageId": "ActionDashBoard",
     "userSetOnLoad": true
   }

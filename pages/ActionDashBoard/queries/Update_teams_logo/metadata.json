@@ -1,6 +1,6 @@
 {
   "gitSyncId": "66fa61ca862f8d04560f55c4_dcff2d98-f0ae-4696-8755-120b5b30e7ba",
-  "id": "ActionDashBoard_Query3",
+  "id": "ActionDashBoard_Update_teams_logo",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": true,
-    "name": "Query3",
+    "name": "Update_teams_logo",
     "pageId": "ActionDashBoard",
     "userSetOnLoad": false
   }

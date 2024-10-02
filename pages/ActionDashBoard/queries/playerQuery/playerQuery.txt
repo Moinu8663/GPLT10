@@ -1,0 +1,1 @@
+SELECT * FROM gpl_player WHERE id ={{Input1.text}};
