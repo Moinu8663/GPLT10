@@ -1,0 +1,1 @@
+UPDATE gpl_player SET team ='Unsold' where id = {{Input1.text}};

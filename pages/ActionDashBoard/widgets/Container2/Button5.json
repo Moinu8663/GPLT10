@@ -1,15 +1,12 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 54,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
     {
       "key": "borderRadius"
     }
@@ -23,16 +20,16 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "8ugn2ivdlj",
-  "leftColumn": 42,
+  "key": "ld45c890o4",
+  "leftColumn": 32,
   "minWidth": 120,
-  "mobileBottomRow": 11,
-  "mobileLeftColumn": 8,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 7,
+  "mobileBottomRow": 54,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 50,
   "needsErrorInfo": false,
-  "onClick": "{{playerQuery.run();\nTeamsTable.run();\nJSObject1.Player();}}",
-  "parentColumnSpace": 6.1337890625,
+  "onClick": "{{UnsoldQuery.run();\nJSObject1.UnsoldsellPlayer();\nresetWidget(\"Container1\", true);\nresetWidget(\"\", true);\nresetWidget(\"Container3\", true);\nresetWidget(\"Input1\", true);}}",
+  "parentColumnSpace": 5.0126953125,
   "parentId": "ziiqs8c0wx",
   "parentRowSpace": 10,
   "placement": "CENTER",
@@ -40,11 +37,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 58,
-  "text": "Submit",
-  "topRow": 0,
+  "rightColumn": 57,
+  "text": "Unsold",
+  "topRow": 50,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "uwoo7bktsx",
-  "widgetName": "Button1Copy6"
+  "widgetId": "eshbvabqh7",
+  "widgetName": "Button5"
 }

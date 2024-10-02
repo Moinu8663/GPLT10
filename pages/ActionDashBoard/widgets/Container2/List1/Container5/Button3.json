@@ -12,17 +12,24 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{Input1.text===''}}",
   "isLoading": false,
   "isVisible": true,
   "key": "raodakdu41",
