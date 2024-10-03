@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_dcff2d98-f0ae-4696-8755-120b5b30e7ba",
-  "id": "ActionDashBoard_Update_teams_logo",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_71c9a22d-dd8c-4dea-bd0b-416ea8143e48",
+  "id": "TeamSquads_Query1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE gpl_Teams SET Team_logo = '{{FilePicker1.files[0].data}}' where id ={{Input2.text}};",
+      "body": "SELECT team_name FROM gpl_Teams;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,14 +22,10 @@
       "name": "GPLT10",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "executeOnLoad": false,
-    "name": "Update_teams_logo",
-    "pageId": "ActionDashBoard",
+    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "name": "Query1",
+    "pageId": "TeamSquads",
     "userSetOnLoad": false
   }
 }

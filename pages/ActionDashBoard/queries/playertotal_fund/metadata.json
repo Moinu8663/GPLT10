@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_287b244f-de2e-4e2e-84ad-af52151517dd",
-  "id": "ActionDashBoard_Query5",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_a9d47e0e-4ae6-4c86-b59d-807bf76dcf8e",
+  "id": "ActionDashBoard_playertotal_fund",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "DELETE FROM gpl_Teams where id=13;",
+      "body": "SELECT a.team_logo, a.team_name, a.fund, count(b.player_name),(a.fund-SUM(b.sold_price))as availablefund FROM gpl_Teams a JOIN gpl_player b ON a.team_name = b.team GROUP BY a.team_logo, a.team_name, a.fund;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -13,7 +13,7 @@
           "value": false
         }
       ],
-      "timeoutInMillisecond": 10000
+      "timeoutInMillisecond": 10000000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -24,7 +24,7 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "Query5",
+    "name": "playertotal_fund",
     "pageId": "ActionDashBoard",
     "userSetOnLoad": true
   }

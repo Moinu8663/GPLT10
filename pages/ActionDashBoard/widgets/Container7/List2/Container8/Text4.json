@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 16,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -41,13 +41,13 @@
   "parentId": "1t8imkuqrd",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 24,
+  "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "{{currentItem.id}}",
+  "text": "Available fund:  {{currentItem.availablefund}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "textStyle": "BODY",
-  "topRow": 4,
+  "topRow": 12,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

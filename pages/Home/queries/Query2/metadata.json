@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_dcff2d98-f0ae-4696-8755-120b5b30e7ba",
-  "id": "ActionDashBoard_Update_teams_logo",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_63a81495-7c70-489c-8f1f-bb69808d276c",
+  "id": "Home_Query2",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE gpl_Teams SET Team_logo = '{{FilePicker1.files[0].data}}' where id ={{Input2.text}};",
+      "body": "insert into gpl_logo VALUES('{{FilePicker1.files}}')",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,8 +28,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Update_teams_logo",
-    "pageId": "ActionDashBoard",
+    "name": "Query2",
+    "pageId": "Home",
     "userSetOnLoad": false
   }
 }

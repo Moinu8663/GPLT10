@@ -41,7 +41,7 @@
   "parentId": "1t8imkuqrd",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 55,
+  "rightColumn": 64,
   "shouldTruncate": false,
   "text": "{{currentItem.team_name}}",
   "textAlign": "LEFT",

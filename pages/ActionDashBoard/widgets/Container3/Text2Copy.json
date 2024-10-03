@@ -1,5 +1,6 @@
 {
   "animateLoading": true,
+  "backgroundColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 22,
   "dynamicBindingPathList": [
@@ -45,7 +46,7 @@
   "shouldTruncate": false,
   "text": "Current Team: {{JSObject1.currentTeam}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#231f20",
   "topRow": 14,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

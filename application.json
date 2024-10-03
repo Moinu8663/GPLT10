@@ -44,6 +44,10 @@
     {
       "id": "ActionDashBoard",
       "isDefault": false
+    },
+    {
+      "id": "TeamSquads",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

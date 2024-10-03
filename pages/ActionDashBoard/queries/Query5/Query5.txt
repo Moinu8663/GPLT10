@@ -1,1 +1,1 @@
-SELECT * FROM gpl_Teams;
+DELETE FROM gpl_Teams where id=13;

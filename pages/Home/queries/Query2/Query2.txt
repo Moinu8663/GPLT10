@@ -1,0 +1,1 @@
+insert into gpl_logo VALUES('{{FilePicker1.files}}')

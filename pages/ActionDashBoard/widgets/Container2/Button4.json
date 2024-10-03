@@ -9,6 +9,14 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -17,7 +25,7 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{Input1.text===''}}",
   "isLoading": false,
   "isVisible": true,
   "key": "ld45c890o4",
@@ -28,7 +36,7 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 52,
   "needsErrorInfo": false,
-  "onClick": "{{resetWidget(\"Container1\", true);\nresetWidget(\"Container3\", true);\nSoldQuery.run();\nresetWidget(\"Input1\", true);\nJSObject1.sellPlayer();}}",
+  "onClick": "{{resetWidget(\"Container1\", true);\nresetWidget(\"Container3\", true);\nresetWidget(\"Input1\", true);\nJSObject1.sellPlayer();}}",
   "parentColumnSpace": 5.0126953125,
   "parentId": "ziiqs8c0wx",
   "parentRowSpace": 10,

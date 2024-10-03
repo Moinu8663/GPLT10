@@ -46,7 +46,7 @@
       "appBoxShadow": "none"
     },
     "colors": {
-      "backgroundColor": "#f3e8ff",
+      "backgroundColor": "url('https://i.pinimg.com/originals/71/99/36/719936018f04b4c510b74ee7a7112bc7.jpg')no-repeat center",
       "primaryColor": "#64748b"
     },
     "fontFamily": {

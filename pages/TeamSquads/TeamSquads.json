@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_f759675b-1af4-40fc-ac98-d8dfe80d756f",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_4665d6e6-0a8b-48bf-acb6-33c9ac7e0419",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 560,
+          "bottomRow": 680,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "ActionDashBoard",
-    "slug": "actiondashboard"
+    "name": "TeamSquads",
+    "slug": "teamsquads"
   }
 }

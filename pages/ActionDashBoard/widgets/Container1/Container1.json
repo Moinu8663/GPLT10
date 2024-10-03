@@ -3,7 +3,7 @@
   "backgroundColor": "",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "1",
+  "borderWidth": "",
   "bottomRow": 49,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
@@ -57,19 +57,25 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
       "key": "backgroundColor"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{Input1.text!==''}}",
   "key": "4yus3ao4v4",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,

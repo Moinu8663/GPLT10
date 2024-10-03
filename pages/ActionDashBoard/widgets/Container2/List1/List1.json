@@ -7,7 +7,7 @@
     "metaWidgetId"
   ],
   "animateLoading": true,
-  "backgroundColor": "#fee2e2",
+  "backgroundColor": "transparent",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 50,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -96,7 +96,7 @@
   "isLoading": false,
   "isVisible": true,
   "itemBackgroundColor": "#FFFFFF",
-  "itemSpacing": "2",
+  "itemSpacing": "1",
   "key": "ib7vadaeru",
   "leftColumn": 6,
   "listData": "{{TeamsTable.data}}",

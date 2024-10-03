@@ -1,0 +1,1 @@
+SELECT a.player_name, a.role,a.photo,b.team_logo FROM gpl_player a join gpl_Teams b ON a.team = b.team_name where b.team_name = '{{Select1.selectedOptionLabel}}';

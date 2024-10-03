@@ -1,0 +1,1 @@
+SELECT a.team_logo, a.team_name, a.fund, count(b.player_name),(a.fund-SUM(b.sold_price))as availablefund FROM gpl_Teams a JOIN gpl_player b ON a.team_name = b.team GROUP BY a.team_logo, a.team_name, a.fund;
