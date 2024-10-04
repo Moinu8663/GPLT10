@@ -1,1 +1,0 @@
-ALTER TABLE gpl_player alter COLUMN Sold_price SET DATA TYPE DECIMAL USING Sold_price::DECIMAL;
