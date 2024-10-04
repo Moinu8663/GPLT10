@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "66fa61ca862f8d04560f55c4_abd8db5f-4a73-4b3f-8219-03b3a2f6358f",
+  "id": "AuctionDashBoard_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "AuctionDashBoard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "basePrice",
+        "value": "Number(playerQuery.data[0].base_price)"
+      },
+      {
+        "name": "currentPrice",
+        "value": "0"
+      },
+      {
+        "name": "currentTeam",
+        "value": "\"\""
+      },
+      {
+        "name": "biddingHistory",
+        "value": "[]"
+      }
+    ]
+  }
+}

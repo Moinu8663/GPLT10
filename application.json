@@ -42,7 +42,7 @@
       "isDefault": true
     },
     {
-      "id": "ActionDashBoard",
+      "id": "AuctionDashBoard",
       "isDefault": false
     },
     {
@@ -50,7 +50,7 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Login",
       "isDefault": false
     }
   ],

@@ -1,19 +1,19 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_3fe41c30-0b68-45f1-818a-26516fec861b",
-  "id": "PlayerList_Query3",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_07d99514-965c-4799-b207-2ae303031aaf",
+  "id": "AuctionDashBoard_TeamsTable",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id,player_name,photo,village FROM gpl_player LIMIT 100",
+      "body": "SELECT * FROM gpl_Teams;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
-      "timeoutInMillisecond": 1000000
+      "timeoutInMillisecond": 10000000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -24,8 +24,8 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "Query3",
-    "pageId": "PlayerList",
+    "name": "TeamsTable",
+    "pageId": "AuctionDashBoard",
     "userSetOnLoad": true
   }
 }
