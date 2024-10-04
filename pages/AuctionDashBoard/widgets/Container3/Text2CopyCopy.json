@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 12,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -34,8 +34,8 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 12,
-  "originalTopRow": 7,
+  "originalBottomRow": 15,
+  "originalTopRow": 10,
   "overflow": "NONE",
   "parentColumnSpace": 6.4140625,
   "parentId": "6pl2kwak82",
@@ -47,7 +47,7 @@
   "text": "Current Price: {{JSObject1.currentPrice}}",
   "textAlign": "LEFT",
   "textColor": "#231f20",
-  "topRow": 10,
+  "topRow": 7,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

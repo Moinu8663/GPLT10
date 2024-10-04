@@ -1,0 +1,1 @@
+UPDATE gpl_player SET Catagory ='A+' WHERE id = 38

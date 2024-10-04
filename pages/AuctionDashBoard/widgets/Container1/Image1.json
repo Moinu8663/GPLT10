@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 30,
   "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
   "defaultImage": "{{playerQuery.data[0].photo}}",
   "dynamicBindingPathList": [
@@ -33,7 +33,7 @@
   "mobileRightColumn": 36,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "objectFit": "cover",
+  "objectFit": "contain",
   "parentColumnSpace": 2.7705078125,
   "parentId": "24z5g2zo81",
   "parentRowSpace": 10,

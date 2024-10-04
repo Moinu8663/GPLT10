@@ -1,19 +1,19 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_3fe41c30-0b68-45f1-818a-26516fec861b",
-  "id": "PlayerList_Query3",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_29c088fa-3cb5-4f36-b368-9d804aae4520",
+  "id": "PlayerList_Query4",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id,player_name,photo,village FROM gpl_player where catagory ='A+'",
+      "body": "UPDATE gpl_player SET Catagory ='A+' WHERE id = 38",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
-      "timeoutInMillisecond": 1000000
+      "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
-    "name": "Query3",
+    "executeOnLoad": false,
+    "name": "Query4",
     "pageId": "PlayerList",
-    "userSetOnLoad": true
+    "userSetOnLoad": false
   }
 }
