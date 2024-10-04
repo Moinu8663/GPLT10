@@ -1,1 +1,0 @@
-DELETE FROM gpl_Teams where id=13;

@@ -238,7 +238,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 60,
   "searchKey": "",
-  "serverSidePaginationEnabled": true,
+  "serverSidePaginationEnabled": false,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{Query3.data}}",
   "textColor": "#18181b",

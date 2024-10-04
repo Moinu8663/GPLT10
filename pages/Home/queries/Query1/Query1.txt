@@ -1,2 +1,0 @@
-Create table gpl_logo(
-logo text)
