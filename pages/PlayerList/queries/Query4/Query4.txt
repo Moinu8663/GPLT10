@@ -1,1 +1,1 @@
-UPDATE gpl_player SET Catagory ='A+' WHERE id = 38
+UPDATE gpl_player SET sold_price = null
