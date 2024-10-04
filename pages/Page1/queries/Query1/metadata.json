@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_3fe41c30-0b68-45f1-818a-26516fec861b",
-  "id": "PlayerList_Query3",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_a3a7ffbe-dd5a-47ab-b7e4-2da7f9fedf7e",
+  "id": "Page1_Query1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id,player_name,photo,village FROM gpl_player where photo = '';",
+      "body": "SELECT * from user;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -13,7 +13,7 @@
           "value": false
         }
       ],
-      "timeoutInMillisecond": 1000000
+      "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
-    "name": "Query3",
-    "pageId": "PlayerList",
-    "userSetOnLoad": true
+    "executeOnLoad": false,
+    "name": "Query1",
+    "pageId": "Page1",
+    "userSetOnLoad": false
   }
 }
