@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE gpl_player SET sold_price = null",
+      "body": "UPDATE gpl_player SET catagory = 'A+' WHERE id= 78",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

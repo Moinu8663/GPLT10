@@ -36,9 +36,10 @@
     "player_name",
     "village",
     "photo",
-    "sold_price"
+    "sold_price",
+    "role"
   ],
-  "columnUpdatedAt": 1728069736365,
+  "columnUpdatedAt": 1728107140038,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -73,6 +74,9 @@
     },
     {
       "key": "primaryColumns.sold_price.computedValue"
+    },
+    {
+      "key": "primaryColumns.role.computedValue"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -195,6 +199,40 @@
       "label": "player_name",
       "notation": "standard",
       "originalId": "player_name",
+      "sticky": "",
+      "textColor": "#18181b",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "role": {
+      "alias": "role",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "#fce7f3",
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"role\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "role",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "role",
+      "notation": "standard",
+      "originalId": "role",
       "sticky": "",
       "textColor": "#18181b",
       "textSize": "0.875rem",

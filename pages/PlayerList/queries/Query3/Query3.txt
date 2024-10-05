@@ -1,1 +1,1 @@
-SELECT id,player_name,photo,village,sold_price FROM gpl_player where catagory ='A+'
+SELECT id,player_name,role,photo,village,sold_price FROM gpl_player LIMIT 100
