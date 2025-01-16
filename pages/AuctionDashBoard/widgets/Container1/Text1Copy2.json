@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "#ffffff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 47,
+  "bottomRow": 55,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -47,7 +47,7 @@
   "text": "Village:     {{playerQuery.data[0].village}}",
   "textAlign": "LEFT",
   "textColor": "#231f20",
-  "topRow": 43,
+  "topRow": 49,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

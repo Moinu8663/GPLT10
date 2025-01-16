@@ -57,22 +57,15 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [
-    {
-      "key": "isVisible"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": "{{JSObject2.isTokenExpired.data}}",
+  "isVisible": true,
   "key": "4yus3ao4v4",
   "leftColumn": 45,
   "maxDynamicHeight": 9000,

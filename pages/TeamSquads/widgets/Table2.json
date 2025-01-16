@@ -4,10 +4,9 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 48,
+  "bottomRow": 185,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
-  "cellBackground": "#fce7f3",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -32,24 +31,21 @@
     }
   },
   "columnOrder": [
-    "id",
     "player_name",
+    "role",
+    "batting_style",
     "village",
-    "sold_price",
-    "role"
+    "sold_price"
   ],
-  "columnUpdatedAt": 1737039169790,
+  "columnUpdatedAt": 1728703906810,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
     0
   ],
-  "delimiter": "",
+  "delimiter": ",",
   "dynamicBindingPathList": [
-    {
-      "key": "tableData"
-    },
     {
       "key": "accentColor"
     },
@@ -60,10 +56,13 @@
       "key": "boxShadow"
     },
     {
-      "key": "primaryColumns.id.computedValue"
+      "key": "primaryColumns.player_name.computedValue"
     },
     {
-      "key": "primaryColumns.player_name.computedValue"
+      "key": "primaryColumns.role.computedValue"
+    },
+    {
+      "key": "primaryColumns.batting_style.computedValue"
     },
     {
       "key": "primaryColumns.village.computedValue"
@@ -72,7 +71,7 @@
       "key": "primaryColumns.sold_price.computedValue"
     },
     {
-      "key": "primaryColumns.role.computedValue"
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -88,34 +87,33 @@
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
-  "key": "nqp8jo9kzu",
+  "key": "v9pmlgthb8",
   "label": "Data",
   "leftColumn": 0,
   "minWidth": 450,
-  "mobileBottomRow": 29,
+  "mobileBottomRow": 166,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 34,
-  "mobileTopRow": 1,
+  "mobileTopRow": 138,
   "needsErrorInfo": false,
   "parentId": "0",
   "parentRowSpace": 10,
-  "primaryColumnId": "id",
   "primaryColumns": {
-    "id": {
-      "alias": "id",
+    "batting_style": {
+      "alias": "batting_style",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#fce7f3",
-      "columnType": "number",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"batting_style\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "id",
-      "index": 0,
+      "id": "batting_style",
+      "index": 3,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -124,11 +122,11 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "id",
+      "label": "batting_style",
       "notation": "standard",
-      "originalId": "id",
+      "originalId": "batting_style",
       "sticky": "",
-      "textColor": "#18181b",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -139,9 +137,9 @@
       "alias": "player_name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#fce7f3",
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player_name\"]))}}",
+      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player_name\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -149,7 +147,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "player_name",
-      "index": 1,
+      "index": 0,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -162,7 +160,7 @@
       "notation": "standard",
       "originalId": "player_name",
       "sticky": "",
-      "textColor": "#18181b",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -173,9 +171,9 @@
       "alias": "role",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#fce7f3",
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"role\"]))}}",
+      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"role\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -183,7 +181,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "role",
-      "index": 2,
+      "index": 1,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -196,7 +194,7 @@
       "notation": "standard",
       "originalId": "role",
       "sticky": "",
-      "textColor": "#18181b",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -207,9 +205,9 @@
       "alias": "sold_price",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#fce7f3",
-      "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sold_price\"]))}}",
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sold_price\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -217,7 +215,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "sold_price",
-      "index": 4,
+      "index": 9,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -230,7 +228,7 @@
       "notation": "standard",
       "originalId": "sold_price",
       "sticky": "",
-      "textColor": "#18181b",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -241,9 +239,9 @@
       "alias": "village",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "#fce7f3",
+      "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"village\"]))}}",
+      "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"village\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -264,7 +262,7 @@
       "notation": "standard",
       "originalId": "village",
       "sticky": "",
-      "textColor": "#18181b",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -274,19 +272,15 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 37,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
-  "showInlineEditingOptionDropdown": true,
-  "tableData": "{{Query3.data}}",
-  "textColor": "#18181b",
+  "tableData": "{{Query2.data}}",
   "textSize": "0.875rem",
-  "topRow": 0,
-  "totalRecordsCount": "10",
+  "topRow": 138,
+  "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
-  "variant": "DEFAULT",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "crcfazzfip",
-  "widgetName": "Table1"
+  "widgetId": "bk8bt005yv",
+  "widgetName": "Table2"
 }

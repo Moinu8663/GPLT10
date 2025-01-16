@@ -31,7 +31,7 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onClick": "{{playerQuery.run();\nTeamsTable.run();\nJSObject1.Player();}}",
+  "onClick": "{{playerQuery.run();\nTeamsTable.run();\nJSObject1.Player();\nplayertotal_fund.run()}}",
   "parentColumnSpace": 6.1337890625,
   "parentId": "ziiqs8c0wx",
   "parentRowSpace": 10,

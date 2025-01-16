@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT a.player_name, a.role,a.photo,b.team_logo FROM gpl_player a join gpl_Teams b ON a.team = b.team_name where b.team_name = '{{Select1.selectedOptionLabel}}';",
+      "body": "SELECT player_name,role,batting_style,village,sold_price FROM gpl_player where team = '{{Select1.selectedOptionLabel}}';",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -13,7 +13,7 @@
           "value": false
         }
       ],
-      "timeoutInMillisecond": 10000
+      "timeoutInMillisecond": 1000000
     },
     "confirmBeforeExecute": false,
     "datasource": {

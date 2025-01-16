@@ -1,15 +1,18 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 24,
   "boxShadow": "none",
-  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "defaultImage": "{{currentItem.photo}}",
   "dynamicBindingPathList": [
     {
       "key": "image"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultImage"
     }
   ],
   "dynamicTriggerPathList": [],

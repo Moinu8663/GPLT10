@@ -1,19 +1,19 @@
 {
-  "gitSyncId": "66fa61ca862f8d04560f55c4_3fe41c30-0b68-45f1-818a-26516fec861b",
-  "id": "PlayerList_Query3",
+  "gitSyncId": "66fa61ca862f8d04560f55c4_d2490e84-db04-48b2-a664-1f664becb5bb",
+  "id": "TeamSquads_Query3",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id,player_name,role,village,sold_price FROM gpl_player ORDER BY id",
+      "body": "update gpl_player set team = {{Select1.selectedOptionValue}} WHERE id = 103",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
-      "timeoutInMillisecond": 1000000
+      "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -22,10 +22,14 @@
       "name": "GPLT10",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
+    "executeOnLoad": false,
     "name": "Query3",
-    "pageId": "PlayerList",
-    "userSetOnLoad": true
+    "pageId": "TeamSquads",
+    "userSetOnLoad": false
   }
 }
